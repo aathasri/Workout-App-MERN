@@ -19,7 +19,7 @@ useEffect(() => {
     }
 
     fetchWorkouts()
-}, [])
+}, [dispatch])
 
     return (
         <div className="home">
